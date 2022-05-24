@@ -1,0 +1,448 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+background-image: url('img/background01.png');
+background-repeat: no-repeat;
+background-size: 100% 100%;
+height:fit-content;
+margin: 0 auto;
+width: 80%;
+background-color: rgb(22, 20, 20) !important; 
+
+ 
+}
+.navbar{
+    background-color: rgb(22, 20, 20) !important;
+    opacity: 0.7;
+    
+} 
+.nav-link{
+    color: #fff !important;
+    margin-right: 20px;
+    opacity: 0.7 !important;
+   
+}
+.nav-link:hover{
+    color: rgb(255, 230, 7) !important;
+    text-decoration: underline;
+    font-size: 1.1rem;
+}
+.navbar-brand{
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 2.5px;
+}
+.navbar-brand::first-letter{
+    font-size: 3rem;
+    color: rgb(255, 230, 7) ;
+}
+.hero-title{
+    font-size: 4rem;
+    font-weight:bolder;
+    color: #fff;
+    margin-bottom: 40px;
+
+}
+.hero-text{
+    font-size: 2rem;
+    font-weight:bolder;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.navbar,.hero{
+    
+       
+        position: relative;
+        animation: mymove 3s;
+        animation-fill-mode: forwards;
+      }
+      
+      @keyframes mymove {
+        from {top: -250px;}
+        to {top: 100px; }
+      }
+.hero-btn{
+    border-radius: 30px;
+    width: 10rem;
+    padding: 15px;
+    margin: 30px 10px;
+    margin-bottom: 100px;
+}
+.portfolio-pic{
+   
+    border-radius: 10px;
+    width: 100%;
+    height: 440px;
+    margin-top: 100px;
+   
+}
+.my-pic{
+    
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid rgb(255, 230, 7);
+}
+.skills-title,.projects-title,.contact-title{
+    font-size: 3rem;
+    color:rgb(255, 230, 7); 
+    font-weight: bolder;
+    margin: 40px auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    
+    
+   
+   
+}
+.skills-title:hover{
+    font-size: 3.5rem;
+    color:rgb(240, 241, 141);
+    font-weight: bolder;
+    margin: 40px auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    display: block;
+}
+.projects-title:hover{
+    font-size: 3.5rem;
+    color:rgb(240, 241, 141);
+    font-weight: bolder;
+    margin: 40px auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    display: block;
+ } 
+
+ .contact-title:hover{
+    font-size: 3.5rem;
+    color:rgb(240, 241, 141);
+    font-weight: bolder;
+    margin: 40px auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    display: block;
+ } 
+
+.skills,.projects,.contact-section{
+    background-color: rgba(71, 69, 69, 0.8);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding:30px;
+    border-radius: 10px;
+    opacity: .8;
+   
+}
+
+.skills-images{
+    width: 80%;
+    height: 300px;
+    border-radius: 20px;
+    border: 0px solid black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.skills-images:hover{
+    width: 83%;
+    height: 320px;
+    border-radius: 20px;
+    border: 0px solid black;
+    box-shadow: rgba(255, 254, 254, 0.35) 10px 25px 25px;
+    /* transition: all .2s ease-in-out; */
+   
+  
+}
+
+
+
+.project-img{
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: rgba(255, 254, 254, 0.35) 10px 25px 25px;
+}
+.describtion{
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.project-btn{
+    padding: 15px;
+    margin: 30px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    
+}
+.submit-btn{
+    border-radius:40px;
+    width: 10rem;
+    padding: 15px;
+    margin: 30px 10px;
+    margin-bottom: 100px;
+}
+.form-label{
+   
+    color: #fff;
+    margin:20px ;
+}
+.input-style{
+    border: 3px solid rgb(255, 230, 7);
+}
+.footer-text{
+    color: #fff;
+    margin: 40px;
+}
+@media (min-width: 1400px) { 
+    .portfolio-pic{
+        border-radius: 10px;
+        width: 100%;
+        height: 80%;
+        margin-top: 100px;  
+      
+    }
+    .hero-title{
+        font-size: 4rem;
+        font-weight:bolder;
+        color: #fff;
+      
+    
+    }
+    .my-pic{
+    
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 5px solid rgb(255, 230, 7);
+    }
+   
+ }
+@media (max-width: 1399.98px) { 
+
+    .portfolio-pic{
+        border-radius: 10px;
+        width: 100%;
+        height: 80%;
+        margin-top: 100px;  
+      
+    }
+    .hero-title{
+        font-size: 4rem;
+        font-weight:bolder;
+        color: #fff;
+      
+    
+    }
+    .my-pic{
+    
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+        border: 5px solid rgb(255, 230, 7);
+    }
+   
+
+ }
+ 
+@media (max-width: 1199.98px) { 
+
+    .portfolio-pic{
+        border-radius: 10px;
+        width: 100%;
+        height: 80%;
+        margin-top: 100px;  
+    }
+    .hero-title{
+        font-size: 4rem;
+        font-weight:bolder;
+        color: #fff;
+      
+    
+    }
+    .my-pic{
+    
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        border: 5px solid rgb(255, 230, 7);
+    }
+    .skills-title,.projects-title,.contact-title{
+        font-size: 3rem;
+        color:rgb(255, 230, 7); 
+        font-weight: bolder;
+        margin: 40px 0;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        width: fit-content;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .skills-title{
+        width: 80%;
+        margin: 0 auto;
+        margin: 40px;
+    }
+   
+  
+
+ }
+@media (max-width: 991.98px) { 
+
+    .portfolio-pic{
+        border-radius: 10px;
+        width: 100%;
+        height: 81%;
+        margin-top: 100px;  
+    }
+    .hero-title{
+        font-size: 4rem;
+        font-weight:bolder;
+        color: #fff;
+      
+    
+    }
+    .skills-title{
+        width: 80%;
+        margin: 0 auto;
+        margin: 40px;
+    }
+    .skills-images{ 
+        width: 100%;
+        height: 200px;
+        border-radius: 20px;
+        border: 0px solid black;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+        .skills-images:hover{ 
+            width: 102%;
+            height: 210px;
+            border-radius: 20px;
+            border: 0px solid black;
+            box-shadow: rgba(248, 244, 244, 0.35) 0px 5px 15px;
+            }
+            .project-btn{
+                padding: 15px;
+                margin: 10px;
+                border-radius: 30px;
+                width: 150px !important;
+                
+            }
+
+ }
+
+ @media (max-width: 767.98px) { 
+
+    .portfolio-pic{
+        border-radius: 10px;
+        width: 100%;
+        height: 700px;
+        margin-top: 5px;  
+    }
+    .hero-title{
+        font-size: 4rem;
+        font-weight:bolder;
+        color: #fff;
+      
+    
+    }
+    .skills-title{
+        width: 80%;
+        margin: 0 auto;
+        margin: 40px;
+    }
+    .skills-images{ 
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+    border: 0px solid black;
+    box-shadow: rgba(32, 32, 32, 0.35) 0px 5px 15px;
+    }
+    .skills-images:hover{ 
+        width: 102%;
+        height: 210px;
+        border-radius: 20px;
+        border: 0px solid black;
+        box-shadow: rgba(243, 238, 238, 0.35) 0px 5px 15px;
+        }
+        .project-btn{
+            padding: 15px;
+            margin: 10px;
+            border-radius: 30px;
+            width: 150px !important;
+            
+        }
+
+ }
+ 
+@media (max-width: 575.98px) { 
+
+    .portfolio-pic{
+        border-radius: 10px;
+        width: 100%;
+        height: 500px;
+        margin-top: 5px;  
+    }
+    .hero-title{
+        font-size: 4rem;
+        font-weight:bolder;
+        color: #fff;
+      
+    
+    }
+    .skills-title,.projects-title,.contact-title{
+        font-size: 2rem;
+        color:rgb(255, 230, 7); 
+        font-weight: bolder;
+        margin: 40px 0;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        width: fit-content;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .skills-title{
+        width: 80%;
+        margin: 0 auto;
+        margin: 30px;
+    }
+   
+    .skills-images{
+        width: 150%;
+        height: 100px;
+      
+        border-radius: 20px;
+        border: 0px solid black;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .skills-images:hover{
+        width: 152%;
+        height: 105px;
+        border-radius: 20px;
+        border: 0px solid black;
+        box-shadow: rgba(255, 254, 254, 0.35) 10px 25px 25px;
+    }
+    .img-div{
+        margin: 30px;
+       
+    }
+    .contact-section{
+        width:100% !important;
+    }
+    .contact-title{
+        width:100% !important;
+    }
+   
+ }
+
+

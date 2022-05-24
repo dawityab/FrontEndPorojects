@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Bootstrap -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+      <!-- bootstrap icon -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <!-- bootstrap icon -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!-- Animation link -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+      <!-- Font Awesome -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <!-- Swiper animation link -->
+     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+      <!-- google font -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Comforter&family=Fredoka+One&family=Great+Vibes&family=Happy+Monkey&family=Kalam:wght@700&family=Lobster+Two&family=Quicksand:wght@600;700&display=swap" rel="stylesheet">
+
+        <!-- Css link -->
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-danger my-5">
+        <div class="container-fluid main-header">
+          <a class="navbar-brand" href="#">Dawit Mehari.</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav links-div ms-auto mb-2 mb-lg-0 px-5">
+              <a class="nav-link active " onclick="aboutFun()" href="#about">About</a>
+              <a class="nav-link " href="#skills">Skills</a>
+              <a class="nav-link " href="#projects-title">Projects</a>
+              <a class="nav-link " href="#contact-title">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="container-fluid hero">
+          <div class="row">
+              <h1 class="hero-title"><b>I am Dawit Mehari</b>  </h1>
+              <p class="hero-text">And I'm A Junior Fullstack Web-Developer</p>
+              <a href="#" class="hero-btn btn btn-warning" >Read more</a>
+          </div>
+      </div>
+    
+<div class="container-fluid ">
+          <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-12  about">
+                <h2><b><a name="about">About me</a></b></h2>
+                <p>Hello World! I'm Dawit Mehari, a junior Fullstack Web-Developer live in Austria.<br><br> I love creating pages where I'm able to actually creating enjoyable interactions and experiences for everyone! <br><br> And with a CodeFactory traning and support, I'm now able to truly call myself a Junior Fullstack Web-Developer.<br> <br>
+                I'm excited to continue refining my skils with the right campany.</p>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 ">
+           <img class="portfolio-pic" src="img/image.jpg" alt="portfolio-picture">
+          </div>
+      </div>
+</div>
+
+<div class="container-fluid skills text-center">
+<img src="img/portfolio2.jpg"class="my-pic mx-auto d-block" alt="me">
+
+  <h2 class=" skills-title text-center" ><a name="skills"> My Skills</a></h2>
+
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide img-div">
+        <img class="skills-images" src="img/html.png" />
+      </div>
+      <div class="swiper-slide img-div">
+        <img class="skills-images" src="img/css.png" />
+      </div>
+      <div class="swiper-slide img-div">
+        <img class="skills-images" src="img/js.png" />
+      </div>
+      <div class="swiper-slide img-div">
+        <img class="skills-images" src="img/ts.png" />
+      </div>
+      <div class="swiper-slide img-div">
+        <img class="skills-images" src="img/bootstrap.png" />
+      </div>
+      <div class="swiper-slide img-div">
+        <img class="skills-images" src="img/angular.png" />
+      </div>
+      <div class="swiper-slide img-div">
+        <img class="skills-images" src="img/git.jpg" />
+      </div>
+      <div class="swiper-slide img-div">
+        <img class="skills-images" src="img/php.jpg" />
+      </div>
+      
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+</div>
+
+   
+<div class="container-fluid projects text-center ">
+
+  <div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12">
+    <h2 class="text-center  projects-title " ><a name="projects-title"> Some of my recent Projects </a></h2>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-12">
+      <img class="project-img" src="img/cr3.jpg" alt="">
+      <p class="text-center describtion">Weekend Events in Vienna</p>
+        <p class="text-center describtion">HTML,Css and Bootstrap</p>
+        <a href="https://dawityab.github.io/FE15-CR3-Dawit-Mehari/index.html" target="_blank"><button class="btn btn-warning w-50 project-btn">see more</button></a>
+
+  </div>
+  <div class="col-lg-4 col-md-4 col-sm-12">
+    <img class="project-img" src="img/cr5.jpg" alt="">
+    <p class="text-center describtion">Pet shop</p>
+      <p class="text-center describtion">HTML,Css,Js and <br>  Bootstrap  </p>
+      <a href="https://dawityab.github.io/Pets/index.html" target="_blank"><button class="btn btn-warning w-50 project-btn">see more</button></a>
+
+</div>
+<div class="col-lg-4 col-md-4 col-sm-12">
+  <img class="project-img" src="img/cr6.jpg" alt="">
+  
+  <p class="text-center describtion">Ristorante Pizzeria</p>
+    <p class="text-center describtion">Angular</p>
+    <a href="https://dawityab.github.io/FE15-CR-Dawit-Mehari/" target="_blank"><button class="btn btn-warning w-50 project-btn">see more</button></a>
+
+   </div>
+     
+ 
+</div>
+</div>
+<div class="container-fluid contact-section text-center w-50 ">
+  <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <h2 class="contact-title"><b><a name="contact-title">Contact me</a></b></h2>
+        
+          <label for="exampleFormControlInput1" class="form-label">Name</label>
+          <input type="email" class="form-control input-style" id="exampleFormControlInput1" placeholder="Enter your Name">
+        
+          <label for="exampleFormControlInput1" class="form-label">Email address</label>
+          <input type="email" class="form-control input-style" id="exampleFormControlInput1" placeholder="Enter your Email">
+      
+     
+          <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+          <textarea class="form-control form-control input-style"  id="exampleFormControlTextarea1" rows="3" placeholder="Enter your Message">Submit</textarea>
+       
+       
+         
+          <button class="form-control btn btn-warning submit-btn" >Submit</button>
+        
+
+  </div>
+ 
+</div>
+</div>
+<!-- footer -->
+<div class="container-fluid text-center">
+  <div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12">
+      <div class="footer">
+        <div class="copyright">
+            <p class="footer-text">&copy;2022 Copyright Dawit Mehari</p>
+        </div>
+      </div>
+  </div>
+</div>
+
+
+      <!-- Scripts -->
+      <script>
+      
+       let heroBtn = document.getElementsByClassName("hero-btn")[0];
+       let about = document.getElementsByClassName("about")[0];
+       let portfolioPic = document.getElementsByClassName("portfolio-pic")[0];
+       about.style.display="none";
+       portfolioPic.style.display="none";
+       heroBtn.addEventListener("click", aboutFun);
+
+       function aboutFun(){
+            portfolioPic.style.display="block";
+            
+            about.style.display="block";
+            about.style.marginTop="100px";
+            about.style.marginBottom="30px";
+            about.style.border="1px solid #c2cc06";
+          
+            about.style.color="#fff";
+            about.style.fontSize="20px";
+            about.style.textDecoration="none";
+            about.style.padding="20px";
+            about.style.borderRadius ="10px";
+            about.animate([
+  // keyframes
+  { transform: 'translateX(-300px)' },
+  { transform: 'translateX(200px)' }
+], {
+  // timing options
+  duration: 1000
+
+});
+       
+      }
+      </script>
+      
+    
+      <!-- Swiper JS -->
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+      <!-- fontawsom -->
+      <script src="https://kit.fontawesome.com/34a8e65dca.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+      <script src="main.js"></script>
+      <script>
+         var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        slidesPerGroup: 3,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+      </script>
+</body>
+</html>
